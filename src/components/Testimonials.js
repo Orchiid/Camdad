@@ -1,6 +1,7 @@
 import React from 'react';
 import './Testimonials.css';
 import WavyBackgroundFive from './WavyBackgroundFive';
+import customers from './Happy-Customers.png'
 import firstTest from "../images/Oval.png";
 import secondTest from "../images/OvalCopy-7.png";
 import thirdTest from "../images/OvalCopy-14.png";
@@ -27,7 +28,10 @@ const Testimonials = () => {
                </div>
                <div className="container">
                <div className="row">
-                   <div className="col-md-4">
+                   <div className="ovals">
+                       <img className='testimonial-image'src={customers} alt="testimonial-img" />
+                   </div>
+                   {/* <div className="col-md-4">
                        <img src={firstTest} className="testimonial-img" alt="first testimonial" />
                        <img src={secondTest} className="testimonial-img-one" alt="second testimonial" />
                        <img src={thirdTest} className="testimonial-img-two" alt="third testimonial" />
@@ -45,7 +49,7 @@ const Testimonials = () => {
                    <img src={ninthTest} className="testimonial-img-eight" alt="ninth testimonial" />
                    <img src={thirteenthTest} className="testimonial-img-twelve" alt="thirteenth testimonial" />
                    <img src={twelvethTest} className="testimonial-img-eleven" alt="twelveth testimonial" />
-                   </div>
+                   </div> */}
                </div>
                </div>
                

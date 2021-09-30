@@ -11,7 +11,7 @@ const Intro = () => {
                     <div className="col-md-6 intros">
                         <h1 className="display-2">
                             <span className="display-2--intro">A Simple Way to Get Loan to Finance Your Business Today</span>
-                            <span className="display-2--description lh-base mt-4">Camdad is a platform for getting the best business loans at the best rate, why not give us a trial.</span>
+                            <span className="display-2--description lh-base mt-4">Find the best loans at the best rate for all your needs. <br />Join us now at Camdad. </span>
                         </h1>
                         <div className="intro-btn">
                         <button type="button" className="btn-text">Get Started</button>

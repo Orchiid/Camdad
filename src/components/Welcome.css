@@ -15,9 +15,14 @@
 }
 
 .display-6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(59,55,71);
 }
 
+.fw-semi-bold{
+    color: rgb(59,55,71);
+    font-family: 'Montserrat', sans-serif;
+}
 .welcome-btn {
     font-size: .8rem;
     font-weight: 700;
@@ -29,4 +34,12 @@
     margin-top: 1.5rem;
     width: 10rem;
     padding: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+@media (max-width: 991px) {
+    .image{
+        width: 100%;
+    }
 }

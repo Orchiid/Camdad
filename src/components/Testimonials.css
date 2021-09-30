@@ -11,12 +11,15 @@
     font-weight: bold;
     font-style: normal;
     margin-bottom: 2rem;
+    color: rgb(59,55,71);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .testimonial-desc {
     font-size: 1.2rem;
     margin-top: 2rem;
     padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .test-line {
@@ -86,4 +89,16 @@
     position: relative;
     bottom: 4rem;
     left: 2rem;
+}
+
+.testimonial-image {
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .testimonial-image {
+        position: relative;
+        width: 100%;
+    }
 }

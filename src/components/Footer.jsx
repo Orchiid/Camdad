@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './camdadlogo.png';
+import logo from './camdadLogoNew1.png';
 import './Footer.css';
 import '@fortawesome/fontawesome-free';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,10 +10,12 @@ const Footer = () => {
         <div id="footer">
             <div className="container footer-section">
                 <div className="row">
-                    <div className="col-md-5">
-                        <img src={Logo} alt="camdad logo" className="camdad-image" />
+                    <div className="col-md-5 ">
+                    <div className="logo1">
+                        <img src={logo} style={{width: "6rem"}} alt="logo" />
+                        <span className='brand2'>Camdad</span></div>
                         <p className="footer-contact-desc">We're here to give you a headstart in securing your Finances for the Future</p>
-                        <div>
+                        <div className='social-icons'>
                             <span className="footer-social-icons"><FontAwesomeIcon icon={faGooglePlusG} /></span>
                             <span className="footer-social-icons"><FontAwesomeIcon icon={faFacebookF} /></span>
                             <span className="footer-social-icons"><FontAwesomeIcon icon={faTwitter} /></span>
@@ -29,7 +31,6 @@ const Footer = () => {
                         <h1 className="footer-contact-heading">Contact Us</h1>
                         <p className="contact-links">07063102733</p>
                         <p className="contact-links">ceo@camdadinvest.com</p>
-                        <p className="contact-links">Address goes here</p>
                         <p className="contact-links app-link">Download our App</p>
                     </div>
                     <div className="col-md-3">

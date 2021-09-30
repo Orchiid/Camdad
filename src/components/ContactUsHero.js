@@ -13,7 +13,7 @@ const ContactUsHero = () => {
                     <p className="contact-us-description">We're always there to help regardless of the number of queries at hand</p>
                     </div>
                     <div className="col-md-6">
-                        <img src={contactGroup} alt="contact us" />
+                        <img src={contactGroup} alt="contact us" className='contactusimg' />
                     </div>
                 </div>
             </div>

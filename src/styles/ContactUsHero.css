@@ -1,5 +1,5 @@
 #contact-us-hero {
-    padding-top: 6rem;
+    padding-top: 3rem;
     background-color: #74ad14;
 }
 
@@ -11,10 +11,16 @@
     color: #fff;
     margin-top: 8rem;
     margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-us-description {
     font-weight: 400;
     font-style: normal;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactusimg{
+    width: 100%;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './camdadlogo.png';
+import logo from './camdadLogoNew1.png';
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 
@@ -9,7 +9,8 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light menu shadow fixed-top">
         <div className="container nav-section">
           <Link to="/" className="navbar-brand"> 
-              <img src={logo} style={{width: "8rem"}} alt="logo" />
+              <img src={logo} style={{width: "3rem"}} alt="logo" />
+              <span className='brand'>Camdad</span>
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -17,7 +18,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink to="/" className="nav-link active" aria-current="page">Home</NavLink>
+                <NavLink to="/" className="nav-link active active1" aria-current="page">Home</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/AboutUs" className="nav-link">About Us</NavLink>
@@ -26,7 +27,7 @@ const Navbar = () => {
                 <NavLink to="/ContactUs" className="nav-link">Contact Us</NavLink>
               </li>
             </ul>
-           <div className="navbar-btn text-center">
+           <div className="navbar-btn nav-link">
            <button type="button" className="btn-navbar">login</button>
            </div>
           </div>

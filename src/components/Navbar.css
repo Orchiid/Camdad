@@ -11,7 +11,17 @@
 }
 
 .navbar-nav {
-    margin-right: 20rem;
+    margin-right: 5rem;
+}
+
+.brand{
+    position: relative;
+    font-weight: 500;
+    font-size: 1.6rem;
+    font-family:'Carme',sans-serif;
+    text-transform: uppercase;
+    top: .3rem;
+    margin-left: .2rem;
 }
 
 .nav-link {
@@ -19,6 +29,7 @@
     text-transform: capitalize;
     font-weight: 600;
     border-bottom: 3px solid whitesmoke;
+    font-family:'Montserrat',sans-serif;
 }
 .nav-item:not(:first-child) {
     padding-left: 3rem;
@@ -35,6 +46,7 @@
      font-size: .8rem;
      font-weight: bold;
      font-style: normal; 
+     font-family:'Montserrat',sans-serif;
      text-transform: uppercase;
      color: #fff;
      border: 2px solid yellowgreen;
@@ -50,7 +62,18 @@
     outline: none; */
 }
 
-.navbar-toggler-icon {
+.navbar-toggler{
+    border: none !important;
+}
+
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+/* .navbar-toggler-icon {
     display: block;
     width: 22px;
     height: 2px;
@@ -64,6 +87,13 @@
 
 .navbar-toggler-icon + .navbar-toggler-icon + .navbar-toggler-icon {
     width: 22px;
+} */
+
+@media (max-width: 991px) {
+    .active1{
+        margin-left: 2.5rem;
+    }
+   .navbar-btn{
+       padding-left: 2.7rem !important;
+   }
 }
-
-
